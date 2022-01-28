@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.card-copy {
+    padding: 0 15px;
+}
+
+.card-copy h3 {
+    margin-bottom: 0;
+}

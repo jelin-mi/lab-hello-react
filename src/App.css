@@ -1,5 +1,35 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.black-box {
+  background-color: black;
+  padding: 20px 50px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-button {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  height: 400px;
+}
+
+.text-button h1 {
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 100px 50px;
 }
 
 .App-logo {
